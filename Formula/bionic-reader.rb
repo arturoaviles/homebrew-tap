@@ -5,23 +5,23 @@ class BionicReader < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.1.0/bionic-reader-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1c3394d4f0ebb452a8116d2a281e11c20f118741145b1a2ebc558d8b5167fd5a"
+      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.2.0/bionic-reader-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3fe924f9a97c502ac4b37e251758eb73a12018aa545934607895892f5c1c987c"
     end
     on_intel do
-      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.1.0/bionic-reader-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "841d82147b77e9d57f7a0cfd2edd35f3e95e8041613b1ff586ce46a687458a93"
+      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.2.0/bionic-reader-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f01842773833eb587c1028fab848b923b50f778942fd82a1fa93f081ab50f58d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.1.0/bionic-reader-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1c86059e2e85a78b3969b9f6df3d03c355d0887fb4583fbbcb5f25b841677e9f"
+      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.2.0/bionic-reader-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "105392e41bedb1dc3cb15bea8b2bf7d11c9ad4de130cc9e6ca1cacc17069dcfb"
     end
     on_intel do
-      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.1.0/bionic-reader-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ae9e9a8eaa294652182aa7b0fb74f237c2fa658aa9fab2a5ae5a5a8a6f1ef319"
+      url "https://github.com/arturoaviles/bionic-reader/releases/download/v0.2.0/bionic-reader-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "334e90352f5a39a466d57d5ea5065d142c75adfc87a558e0bba45d1c708e610d"
     end
   end
 
